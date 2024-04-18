@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-27T21:33:54 IST" name="Suite" finished-at="2024-03-27T21:34:25 IST" duration-ms="30555">
+    <groups>
+    </groups>
+    <test started-at="2024-03-27T21:33:54 IST" name="OrangeHRM Test" finished-at="2024-03-27T21:34:25 IST" duration-ms="30555">
+      <class name="testngsessions.OrangeHRMTest">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngsessions.OrangeHRMTest@2bfc268b]" started-at="2024-03-27T21:33:54 IST" name="setup" finished-at="2024-03-27T21:34:22 IST" duration-ms="27776" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.orangehrm.com/30-day-free-trial/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titleTest()[pri:1, instance:testngsessions.OrangeHRMTest@2bfc268b]" started-at="2024-03-27T21:34:22 IST" name="titleTest" finished-at="2024-03-27T21:34:22 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method signature="urlTest()[pri:2, instance:testngsessions.OrangeHRMTest@2bfc268b]" started-at="2024-03-27T21:34:22 IST" name="urlTest" finished-at="2024-03-27T21:34:22 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testngsessions.OrangeHRMTest@2bfc268b]" started-at="2024-03-27T21:34:22 IST" name="tearDown" finished-at="2024-03-27T21:34:25 IST" duration-ms="2676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testngsessions.OrangeHRMTest -->
+    </test> <!-- OrangeHRM Test -->
+  </suite> <!-- Suite -->
+</testng-results>
